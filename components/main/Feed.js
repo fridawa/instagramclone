@@ -2,5 +2,5 @@ import React from "react";
 import { View } from "react-native";
 
 export default function Feed() {
-  return <View>Feed</View>;
+  return <View></View>;
 }
