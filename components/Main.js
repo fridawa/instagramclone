@@ -23,7 +23,7 @@ export class Main extends Component {
     return (
       <Tab.Navigator initialRouteName="Feed" labeled={false}>
         <Tab.Screen
-          name="Feed"
+          name="Feed" 
           component={FeedScreen}
           options={{
             tabBarIcon: ({ color, size }) => (
