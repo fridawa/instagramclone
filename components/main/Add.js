@@ -69,7 +69,6 @@ export default function Add({ navigation }) {
           );
         }}
       ></Button>
-
       <Button title="Take Picture" onPress={() => takePicture()} />
       <Button title="Pick Image From Gallery" onPress={() => pickImage()} />
       <Button

@@ -1,6 +1,10 @@
 import React from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
 export default function Feed() {
-  return <View></View>;
+  return (
+    <View>
+      <Text>Feed</Text>
+    </View>
+  );
 }
